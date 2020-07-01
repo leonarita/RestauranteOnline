@@ -44,6 +44,8 @@ No controller é composto por três componentes:
 ### 3. View
 
 O view é responsável pelo `layout` na qual o usuário consumirá.
+<br>
+O View no ASP NET utiliza `Razor` e `Helpers`.
 
 <br>
 
