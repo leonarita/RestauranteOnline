@@ -14,19 +14,22 @@ Esse projeto visa que o usuário encontre um Restaurante que satisfaça o seu go
 
 ### 1. Model
 
-O model é responsável por criar as `tabelas no banco de dados`.
+O model é responsável por criar as `tabelas no banco de dados`. 
+<br>
+Esse projeto utilizou o `Database-First`.
 
 <br>
 
 O model pode ser construido a partir de três abordagens de Entity Framework:
-  1. Code-First : Primeiro as classes de domínios e depois a estrutura do banco de dados.
-  2. Model-First : Primeiro o modelo conceitual e depois o modelo físico.
-  3. Database-First : Primeiro o modelo físico do banco de dados.
-  
 <br>
 
-Esse projeto utilizou o `Database-First`.
-
+  1. Code-First
+    Primeiro as classes de domínios e depois a estrutura do banco de dados.
+  2. Model-First :
+    Primeiro o modelo conceitual e depois o modelo físico.
+  3. Database-First 
+    Primeiro o modelo físico do banco de dados.
+  
 <br>
 
 ### 2. Controller
