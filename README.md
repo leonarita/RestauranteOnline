@@ -3,6 +3,7 @@
 ## Aplicação completa utilizando ASP NET MVC
 
 Esse projeto foi desenvolvido para aplicar todos os conceitos de `ASP NET` utilizando a `arquitetura MVC`.
+<br>
 Esse projeto utilizou bibliotecas externas, como `bootstrap` e `jQuery`.
 
 <br>
