@@ -12,6 +12,10 @@ Esse projeto visa que o usuário encontre um Restaurante que satisfaça o seu go
 
 <br>
 
+<img src="/uploads/foto3.png" />
+
+<br>
+
 ### 1. Model
 
 O model é responsável por criar as `tabelas no banco de dados`. 
@@ -39,6 +43,10 @@ No controller é composto por três componentes:
   2. `CRUD`;
   3. `regras de negócios`.
   
+<br>
+
+<img src="/uploads/foto2.png" />
+
 <br>
 
 ### 3. View
