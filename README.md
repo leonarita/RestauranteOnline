@@ -80,3 +80,9 @@ _OBS: Não consegui renderizar as imagens na tela, mas consegui encontrar as tag
   3. `Validação de Dados`
     <br>
     Pode ser realizado tanto no lado servidor quanto no lado cliente.
+
+<br>
+
+<img src="/uploads/foto4.png" />
+
+<br>
