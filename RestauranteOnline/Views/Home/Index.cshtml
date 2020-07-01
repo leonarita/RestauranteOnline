@@ -1,0 +1,77 @@
+﻿ 
+@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Home</h2>
+
+@Html.ExibeImagens()
+
+<h3>Encontre seu restaurante aqui!</h3>
+
+<div class="row">
+    <form class="form-inline">
+        <div class="form-group">
+            <label>Bairro</label>   &nbsp; &nbsp;
+            @Html.DropDownList("Bairro")
+        </div>
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <div class="form-group">
+            <label>Gênero</label>   &nbsp; &nbsp;
+            @Html.DropDownList("Genero")
+        </div>
+
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <button type="button" id="pesquisar" class="btn btn-success">Pesquisar</button>
+        <br /><br />
+    </form>
+</div>
+
+<div class="row">
+    <div id="resultados"></div>
+</div>
+
+
+@section Scripts {
+
+    <script>
+
+        $(function () {
+            $("#pesquisar").on("click", function () {
+                var pesquisa = { IDBairro: $("#Bairro").val(), IDGenero: $("#Genero").val() };
+
+                $.getJSON("/home/pesquisar", pesquisa, function (data) {
+
+                    var resultados = $("#resultados");
+                    resultados.empty();
+
+                    if (data.length == 0) {
+                        resultados.append('<div class="alert alert-warning">Não encontramos nenhum restaurante... </div>');
+                        return false;
+                    }
+
+                    for (var i = 0; i<data.length; i++) {
+
+                        if (data[i].DisqueEntrega == true)
+                            data[i].DisqueEntrega = "Sim";
+                        else
+                            data[i].DisqueEntrega = "Não";
+
+                        resultados.append('<div class="alert alert-success">' +
+                            '<h4><b>' + data[i].Nome + '</b></h4>' +
+                            '<p><b>Endereço: </b>' + data[i].Endereco + '</p>' +
+                            '<p><b>Telefone: </b>' + data[i].Telefone + '</p>' +
+                            '<p><b>Site: </b>' + data[i].Site + '</p>' +
+                            '<p><b>Disque Entrega: </b>' + data[i].DisqueEntrega + '</p>' +
+                            '</div>');
+                    }
+                })
+            })
+        })
+
+    </script>
+}
+

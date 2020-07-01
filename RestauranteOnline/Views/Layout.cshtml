@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Restaurante Online - @ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
+
+    <style>
+        body {
+            padding-top: 60px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Restaurante Online</a>
+                @Html.ActionLink("Home", "Index", "Home")       &nbsp; &nbsp;
+                @Html.ActionLink("Bairros", "Index", "Bairro")  &nbsp; &nbsp;
+                @Html.ActionLink("Gêneros", "Index", "Genero")  &nbsp; &nbsp;
+                @Html.ActionLink("Restaurantes", "Index", "Restaurante")    &nbsp; &nbsp;
+                @Html.ActionLink("Usuários", "Index", "Usuario")            &nbsp; &nbsp; &nbsp;
+                <a id="botao-sair" class="btn btn-success" style="display:none">Sair</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script src="@Url.Content("~/Scripts/jquery-3.3.1.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/Autenticacao.js")"></script>
+    @RenderSection("Scripts", required: false)
+
+</body>
+</html>
