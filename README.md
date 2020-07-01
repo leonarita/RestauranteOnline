@@ -51,7 +51,7 @@ No controller é composto por três componentes:
 <br>
 
 <table><tr><td>
-  <img src="/uploads/foto4.png" />
+  <img src="/uploads/foto3.png" />
 </td></tr></table>
 
 <br>
