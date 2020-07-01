@@ -29,13 +29,16 @@ Esse projeto utilizou o `Database-First`.
 O model pode ser construido a partir de três abordagens de Entity Framework:
 <br>
 
-  1. Code-First
-    Primeiro as classes de domínios e depois a estrutura do banco de dados.
-  2. Model-First :
-    Primeiro o modelo conceitual e depois o modelo físico.
-  3. Database-First 
-    Primeiro o modelo físico do banco de dados.
+  1. `Code-First` : Primeiro as classes de domínios e depois a estrutura do banco de dados.
+  2. `Model-First` : Primeiro o modelo conceitual e depois o modelo físico.
+  3. `Database-First` : Primeiro o modelo físico do banco de dados.
   
+<br>
+
+<table><tr><td>
+  <img src="/uploads/foto5.png" />
+</td></tr></table>
+
 <br>
 
 ### 2. Controller
@@ -48,7 +51,7 @@ No controller é composto por três componentes:
 <br>
 
 <table><tr><td>
-  <img src="/uploads/foto2.png" />
+  <img src="/uploads/foto4.png" />
 </td></tr></table>
 
 <br>
