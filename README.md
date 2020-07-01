@@ -49,6 +49,10 @@ O View no ASP NET utiliza `Razor` e `Helpers`.
 
 <br>
 
+_OBS: Não consegui renderizar as imagens na tela, mas consegui encontrar as tags no modo desenvolvedor._
+
+<br>
+
 ### 4. Tópicos Extras
 
 <br>
