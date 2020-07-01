@@ -12,7 +12,9 @@ Esse projeto visa que o usuário encontre um Restaurante que satisfaça o seu go
 
 <br>
 
-<img src="/uploads/foto3.png" />
+<table><tr><td>
+  <img src="/uploads/foto3.png" />
+</td></tr></table>
 
 <br>
 
@@ -45,7 +47,9 @@ No controller é composto por três componentes:
   
 <br>
 
-<img src="/uploads/foto2.png" />
+<table><tr><td>
+  <img src="/uploads/foto2.png" />
+</td></tr></table>
 
 <br>
 
@@ -83,6 +87,8 @@ _OBS: Não consegui renderizar as imagens na tela, mas consegui encontrar as tag
 
 <br>
 
-<img src="/uploads/foto4.png" />
+<table><tr><td>
+  <img src="/uploads/foto4.png" />
+</td></tr></table>
 
 <br>
