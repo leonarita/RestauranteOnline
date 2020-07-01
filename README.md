@@ -48,18 +48,18 @@ O view é responsável pelo `layout` na qual o usuário consumirá.
 
 <br>
 
-  1. Repositórios
+  1. `Repositórios`
     <br>
     No projeto, foi feito um repositório para gerenciar a autenticação a partir de cookies.
   
   <br>
   
-  2. Filtros
+  2. `Filtros`
     <br>
     No projeto, foi feito o filtro para que não seja possível que um usuário não logado acesse às áreas administrativas.
   
   <br>
   
-  3. Validação de Dados
+  3. `Validação de Dados`
     <br>
     Pode ser realizado tanto no lado servidor quanto no lado cliente.
