@@ -10,6 +10,8 @@ Esse projeto utilizou bibliotecas externas, como `bootstrap` e `jQuery`.
 
 Esse projeto visa que o usuário encontre um Restaurante que satisfaça o seu gosto.
 
+<br>
+
 ### 1. Model
 
 O model é responsável por criar as `tabelas no banco de dados`.
